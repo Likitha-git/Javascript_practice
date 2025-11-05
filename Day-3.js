@@ -18,17 +18,17 @@ return longest;
 }
 let sentence = "Click here to run the Javascript";
 let result = longestWordInSentence(sentence);
-console.log("The longest word is", result);
+console.log("The longest word is", result); // o/p ---->Javascript
 
 //---arrow functions-----
 const square = x => x * x;
-console.log(square(2));
+console.log(square(2));// o/p ---> 4
 
 // const greet = name => {
   const message = "Hello" + name;
   return message;
  };
-  console.log(greet("Manny"));
+  console.log(greet("Manny"));// o/p----> Hello MAnny
 
 //------repeat a string N times---
 const repeatString = (str, n) => {
@@ -38,5 +38,5 @@ const repeatString = (str, n) => {
   }
   return result;
  };
- console.log(repeatString("cat " , 4));
+ console.log(repeatString("cat " , 4)); // o/p-----> cat cat cat cat
 
