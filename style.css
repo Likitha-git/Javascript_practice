@@ -1,0 +1,114 @@
+.simple-btn {
+  padding:12px 24px;
+  background-color: #4878FB;
+  color:white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  width:100px;
+}
+.simple-btn:hover {
+  background-color: #B8C7B9;
+}
+.pill-btn {
+  padding:12px 24px;
+  background-color: #4878FB;
+  color:white;
+  border: none;
+  font-size: 16px;
+  border-radius: 100%;
+  width:100px;
+}
+.pill-btn:hover {
+  background-color: #B8C7B9;
+}
+.outline-btn {
+  padding:12px 24px;
+ outline: 1px solid #1F55EA;
+  color:#4878FB;
+  font-size: 16px;
+  border-radius: 5px;
+  width:100px;
+}
+.outline-btn:hover {
+  background-color: #B8C7B9;
+}
+.bordered-btn {
+  padding:12px 24px;
+  margin:20px;
+ outline: 0.5px solid #4878FB ;
+  background-color:#4878FB;
+  color:white;
+  font-size: 16px;
+  border-radius: 5px;
+  width:100px;
+}
+.dis-btn {
+  padding:12px 24px;
+  margin:20px;
+  font-size: 16px;
+  background-color: #999;
+  color: white;
+  cursor: not-allowed; 
+  opacity: 0.7;
+}
+.dis-btn:hover {
+  background-color: #B8C7B9;
+}
+.three-d-btn {
+  padding:12px 24px;
+ outline: 1px solid #1F55EA;
+  color:#4878FB;
+  font-size: 16px;
+  border-radius: 5px;
+  width:100px;
+  box-shadow: 0 6px grey; 
+  cursor: pointer;
+  transition:1s;
+}
+.elevated-btn {
+   background-color: #4878FB;
+  color: white;
+  padding: 12px 24px;
+  margin:20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px grey; 
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.download-btn {
+  background-image: url('https://cdn-icons-png.flaticon.com/128/15733/15733010.png'); 
+  background-repeat: no-repeat;
+  padding:12px 24px;
+  margin:20px;
+  background-position: left ;
+  text-align: center;
+  background-size: 25px;
+ outline: 1px fade #829382;
+  color:#829382;
+  font-size: 16px;
+  border-radius: 5px;
+  width:115px;
+}
+.nav {
+  display: flex;
+}
+.nav button {
+  margin: 0;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+.prev-btn:hover {
+  border-end-end-radius:7px;
+  background-color: #B8C7B9;
+}
+.next-btn:hover {
+  border-top-left-radius:7px;
+  background-color: #B8C7B9;
+}
