@@ -38,5 +38,5 @@ const repeatString = (str, n) => {
   }
   return result;
  };
- console.log(repeatString("Pyari " , 4));
+ console.log(repeatString("cat " , 4));
 
